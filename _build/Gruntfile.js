@@ -64,7 +64,7 @@ module.exports = function(grunt) {
             options: {
                 config: 'config.rb',
                 force: true
-            }
+            },
             files: {
                     '<%= meta.cssDeployPath %>main.css': '<%= meta.cssSrcPath %>main.scss'
             }
